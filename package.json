@@ -1,0 +1,19 @@
+{
+  "name": "recepcoin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/sample-script.js --network matic"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "dotenv": "^11.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.8.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2"
+  }
+}
